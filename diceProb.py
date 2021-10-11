@@ -12,7 +12,7 @@ def rollOneDie():
     print("error", ((m/i)-1/6)/(1/6))
     print("\n")
 
-# roll two dice
+# Roll two dice
 def rollTwoDice():
     m = 0
     totalThrowedDice = 0
@@ -29,7 +29,7 @@ def rollTwoDice():
  
 
 
-#calculate the probability of a die
+# Calculate the probability of a die
 def calculateProbability(n):
     m = 0
     for i in range(1, 100001):
@@ -41,7 +41,7 @@ def calculateProbability(n):
     print("\n")
     return m/i
 
-# calculate the probability of two dice
+# Calculate the probability of two dice
 def calculateTwoDiceProbability():
     m = 0
     totalThrowedDice = 0
@@ -56,7 +56,7 @@ def calculateTwoDiceProbability():
     print("\n")
     return m/i   
 
-# calculate all posibilities of a die
+# Calculate all posibilities of a die
 def calculateAllProbability():
     posibilities = 0
     for i in range(1, 7):

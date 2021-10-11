@@ -1,12 +1,13 @@
-import random
 import Formulas
+import coinProb
+import diceProb
+import Homework1
 
-n = int(input("Enter the number of obj: "))
-r = int(input("How many obg selected: "))
+
+
 
 
 #coinProb.throwACoin()
-
 #diceProb.rollOneDie()
 #diceProb.rollTwoDice()
 #diceProb.calculateProbability(4)
@@ -14,8 +15,11 @@ r = int(input("How many obg selected: "))
 #diceProb.calculateTwoDiceProbability()
 
 
+n = int(input("Enter the number of obj: "))
+r = int(input("How many obj selected: "))
+
 # Formulas
 print("Combination: ",  Formulas.combination(n, r))
-print("combinationWithRepetition: ", Formulas.combinationWithRepetition(n, r))
-print("permutation: ",  Formulas.permutation(n, r) ,)
-print("permutationWithRepetition: ",    Formulas.permutationWithRepetition(n, r))
+print("Combination With Repetition: ", Formulas.combinationWithRepetition(n, r))
+print("Permutation: ",  Formulas.permutation(n, r) ,)
+print("Permutation With Repetition: ",    Formulas.permutationWithRepetition(n, r))

@@ -1,8 +1,6 @@
-import random
-
 #Factiorial
 def factorial(n):
-    if n == 0:
+    if n <= 0:
         return 1
     else:
         return n * factorial(n - 1)
@@ -18,8 +16,14 @@ def combinationWithRepetition(n, r):
 
 #Permutation
 def permutation(n, r):
-    return factorial(n) / factorial(n - r)
+    return factorial(n) / factorial(n-r)
 
 #Permutation with repetition
 def permutationWithRepetition(n, r):
-    return factorial(n + r - 1) / factorial(n - 1)
+    return n**r
+
+
+
+
+        
+            
