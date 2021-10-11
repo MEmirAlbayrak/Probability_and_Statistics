@@ -1,7 +1,7 @@
 import Formulas
 import coinProb
 import diceProb
-import Homework1
+import Exercises01
 
 
 
